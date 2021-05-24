@@ -1,0 +1,303 @@
+@media (max-width: 1200px) { 
+    
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1200px) { 
+    .navbar .btn
+    {
+        margin-left: 10px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .header-top,
+    .navbar
+    {
+        padding: 20px 40px;
+    }
+    
+ }
+
+// Extra large devices (large desktops)
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 992px) { 
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 600px;
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+    .header .navbar .btn
+    {
+        display: none;
+    }
+    .header .navbar-nav
+    {
+        padding-top: 20px;
+    }
+    .section-main button
+    {
+        margin-bottom: 50px;
+    }
+    .section-main p
+    {
+        max-width: 100%;
+    }
+    .section-main .col-lg-6:nth-child(1)
+    {
+        padding-right: 15px;
+    }
+    .header-top
+    {
+        display: none;
+    }
+    .selectpicker-lang--mobile
+    {
+        display: block;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+    {
+        display: inline-block;
+    }
+    .navbar-light .navbar-nav .active>.nav-link::after, .navbar-light .navbar-nav .nav-link.active::after, .navbar-light .navbar-nav .nav-link.show::after, .navbar-light .navbar-nav .show>.nav-link::after
+    {
+        bottom: 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar .btn
+    {
+        margin-left: 0;
+    }
+    .section-services p
+    {
+        margin-bottom: 50px;
+    }
+    .section-services img
+    {
+        margin-bottom: 33px;
+    }
+    .section-services .services-list__item
+    {
+        max-width: 100%;
+    }
+    .services-item
+    {
+        margin-bottom: 40px;
+    }
+    .section-about .about-inner
+    {
+        padding-left: 0;
+    }
+    .section-about .row {
+        flex-direction: column-reverse;
+    }
+    .section-about .about-list__item-wrapper
+    {
+        align-items: flex-start;
+    }
+    .section-about .about-list__item-number
+    {
+        margin-right: 25px;
+    }
+    .section-about img 
+    {
+        margin: 0px auto;
+        display: flex;
+        align-items:center;
+        margin-top: 55px;
+    }
+    .section-banner .banner
+    {
+        background: url(../images/paint2.svg) 100% 125% no-repeat,url(../images/paint1.svg) 0% -11% no-repeat,#fff;
+    }
+    .section-action h3
+    {
+        margin-bottom: 35px;
+    }
+    .section-action button
+    {
+        width: 50%;
+    }
+    .footer-bottom
+    {
+        margin-top: 37px;
+    }
+    .footer-bottom1
+    {
+        margin-bottom: 60px;
+    }
+    .footer .nav-link
+    {
+        padding: 0 12px 0 0;
+    }
+    .footer .navbar ul
+    {
+        margin-bottom: 30px;
+        justify-content: space-between;
+        flex-basis: 100%;
+    }
+    .footer-bottom__right {
+        text-align: left;
+    }
+    .footer-list
+    {
+        justify-content: space-between;
+    }
+    .footer .navbar .btn {
+        margin-left: 0px;
+    }
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { 
+    .header-top, .navbar {
+        padding: 20px 16px;
+    }
+    a.navbar-brand
+    {
+        width: 150px;
+    }
+    .navbar .btn
+    {
+        padding: 8px 20px;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 373px;
+        padding-bottom: 36px;
+        padding-top: 36px;
+    }
+    h1, h2
+    {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    p 
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .section-main h1
+    {
+        margin-bottom: 25px;
+    }
+    .section-main button
+    {
+        padding: 18px 19px;
+        width: 100%;
+    }
+    .section-main img
+    {
+        width: 100%;
+    }
+    .section-main p
+    {
+        margin-bottom: 30px;
+    }
+    .section-main .col-lg-6:nth-child(1)
+    {
+        padding-right: 15px;
+    }
+    .section-services h2
+    {
+        margin-bottom: 25px;
+    }
+    .section-services p
+    {
+        margin-bottom: 30px;
+    }
+    .section-services img
+    {
+        width: 40px;
+        margin-bottom: 23px;
+    }
+    .section-about h2
+    {
+        margin-bottom: 50px;
+    }
+    h4 
+    {
+        font-size: 20px;
+    }
+    .section-about img
+    {
+        max-width: 180px;
+    }
+    .section-about .about-list__item-number
+    {
+        font-size: 20px;
+    }
+    .section-banner .banner
+    {
+        padding: 64px 12px;
+    }
+    h3 
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-banner button
+    {
+        width: 100%;
+        padding: 18px 65px;
+    }
+    .section-banner .banner {
+        background: url(../images/paint2.svg) 100% 132% no-repeat,url(../images/paint1.svg) -12% -19% no-repeat,#fff;
+    }
+    .section-banner p
+    {
+        max-width: 150px;
+    }
+    .section-action h3
+    {
+        padding-left: 39px;
+    }
+    .section-action button
+    {
+        width: 100%;
+    }
+    .footer .navbar ul
+    {
+        flex-direction: column;
+    }
+    .footer-bottom1 {
+        margin-bottom: 25px;
+    }
+    .footer .nav-item+.nav-item
+    {
+        margin-top: 30px;
+    }
+    .footer-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-list__item+.footer-list__item {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .footer .navbar .btn
+    {
+        padding: 10px 33px;
+    }
+    .footer-bottom2 p
+    {
+        max-width: 300px;
+    }
+ }
+
+// No media query since the extra-large breakpoint has no upper bound on its width
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) { 
+    .header .navbar .btn
+    {
+        padding: 8px 13px;
+    }
+ }
+
+
+

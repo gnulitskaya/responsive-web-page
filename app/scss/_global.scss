@@ -1,0 +1,90 @@
+@font-face {
+font-family: 'Neris Light';
+src: url('../fonts/Neris-Light.eot');
+src: url('../fonts/Neris-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Neris-Light.woff') format('woff'),
+url('../fonts/Neris-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Neris Semibold';
+src: url('../fonts/Neris-SemiBold.eot');
+src: url('../fonts/Neris-SemiBold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Neris-SemiBold.woff') format('woff'),
+url('../fonts/Neris-SemiBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Neris Black';
+src: url('../fonts/Neris-Black.eot');
+src: url('../fonts/Neris-Black.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Neris-Black.woff') format('woff'),
+url('../fonts/Neris-Black.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+button
+{
+    cursor: pointer;
+    outline: none !important;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+p 
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    outline: none;
+}
